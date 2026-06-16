@@ -1,3 +1,5 @@
+# IBM HR Analytics Employee Attrition Dashboard
+
 ## Dashboard Preview
 
 ### Workforce Overview
@@ -7,8 +9,6 @@
 ### Attrition and Risk Analysis
 
 ![Attrition and Risk Analysis](05_screenshots/02_attrition_risk_analysis.jpg)
-
-# IBM HR Analytics Employee Attrition Dashboard
 
 ## Project Overview
 
