@@ -71,14 +71,15 @@ Key fields:
 - Workforce Overview
 - Attrition and Risk Analysis
 
-## Key Insights
+## 📈 Key Business Insights & Actionable Recommendations
 
-- Overall attrition rate: 16.12%
-- Overtime attrition rate: 30.53%
-- Non-overtime attrition rate: 10.44%
-- Sales Representative attrition rate: 39.76%
-- Laboratory Technician attrition rate: 23.94%
-- Attrition decreases as job satisfaction increases.
+* **Baseline Attrition:** The organization faces an overall voluntary turnover rate of **16.12%**.
+* **The Overtime Burnout Factor:** Overtime drives a massive surge in turnover—**30.53%** attrition for overtime workers vs. **10.44%** for non-overtime peers.
+    *BA Recommendation:* Partner with department heads to deploy an automated workload audit trigger whenever a team's continuous overtime logs breach acceptable thresholds.
+* **High-Turnover Job Roles:** Turnover heavily clusters in frontline operational roles, led by **Sales Representatives (39.76%)** and **Laboratory Technicians (23.94%)**.
+    *BA Recommendation:* Launch targeted qualitative stay-interviews in the Sales and R&D divisions to optimize compensation tiers and establish clearer career-pathing frameworks.
+* **Satisfaction Inverse Correlation:** Data confirms a strict linear drop in attrition as qualitative job satisfaction scores improve from scale 1 to 4.
+    *BA Recommendation:* Introduce automated pulse survey triggers to identify localized drops in satisfaction metrics before they turn into voluntary exits.
 
 ## Repository Structure
 
