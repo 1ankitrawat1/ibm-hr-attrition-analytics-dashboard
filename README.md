@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-This project analyzes employee attrition using SQL and Power BI. The objective was to identify attrition drivers, create a clean reporting model, and build an interactive HR dashboard.
+This project delivers an end-to-end Business Intelligence solution designed to diagnose, analyze, and mitigate voluntary workforce turnover. By utilizing **SQL (MySQL)** for data engineering and **Power BI** for star-schema dimensional modeling and interactive visualization, this project translates raw HR data into strategic talent retention insights.
 
 ## Business Problem
 
@@ -85,21 +85,21 @@ Key fields:
 
 ```text
 ibm-hr-attrition-analytics-dashboard/
-|-- README.md
-|-- 01_data/
-|   |-- raw/
-|-- 02_sql_scripts/
-|   |-- 01_database_setup.sql
-|   |-- 02_data_cleaning.sql
-|   |-- 03_data_exploration.sql
-|   |-- 04_star_schema_views.sql
-|-- 03_powerbi/
-|   |-- HR_Attrition_Dashboard.pbix
-|-- 04_screenshots/
-|   |-- 01_workforce_overview.png
-|   |-- 02_attrition_risk_analysis.png
-|-- docs/
-|   |-- data_dictionary.md
+├── 01_data/
+│   └── raw/
+│       └── WA_Fn-UseC_-HR-Employee-Attrition.csv   # Raw IBM Source Dataset
+├── 02_sql_scripts/
+│   ├── 01_database_setup.sql                    # Database and Table Initialization
+│   ├── 02_data_cleaning.sql                      # ETL Layer: Dropping Constants
+│   ├── 03_data_exploration.sql                   # Ad-hoc Exploratory Queries
+│   └── 04_star_schema_views.sql                  # Star Schema Views Generation
+├── 03_powerbi/
+│   └── HR_Attrition_Dashboard.pbix               # Compiled Power BI Semantic Layer
+├── 04_docs/
+│   └── data_dictionary.md                        # Column Metadata and Data Dictionary
+└── 05_screenshots/
+    ├── 01_workforce_overview.jpg                 # Executive KPI Dashboard Screen
+    └── 02_attrition_risk_analysis.jpg            # Deep-dive Risk Analytics Matrix
 ```
 
 ## Skills Demonstrated
