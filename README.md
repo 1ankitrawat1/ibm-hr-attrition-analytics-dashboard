@@ -71,7 +71,7 @@ Key fields:
 - Workforce Overview
 - Attrition and Risk Analysis
 
-## 📈 Key Business Insights & Actionable Recommendations
+## Key Business Insights & Actionable Recommendations
 
 * **Baseline Attrition:** The organization faces an overall voluntary turnover rate of **16.12%**.
 * **The Overtime Burnout Factor:** Overtime drives a massive surge in turnover—**30.53%** attrition for overtime workers vs. **10.44%** for non-overtime peers.
